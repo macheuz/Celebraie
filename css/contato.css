@@ -185,7 +185,7 @@ p{
 .centralizaIconEndereco{
     width: 30%;
     height: 70%;
-    background-image: url(/img/enderecoIcon.png);
+    background-image: url(../img/enderecoIcon.png);
     background-size: cover;
 }
 .tituloEndereco{
@@ -549,7 +549,7 @@ p{
       margin-top: 100px;
       height: 40vh;
       background-color: var(--vermelho-color);
-      background-image: url(/img/fundoPrimeiroBloco.jpeg);
+      background-image: url(../img/fundoPrimeiroBloco.jpeg);
       background-size: cover;
       background-position: center;
       justify-content: center;
