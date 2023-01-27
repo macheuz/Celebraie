@@ -278,14 +278,19 @@ p{
     display: flex;
     width: calc(100%/3);
     justify-content: center;
-}
-.rodapeCentro p{
+  }
+  .rodapeCentro a{
     color: white;
-}
-.rodapeCentro p:hover{
+    text-decoration: none;
+  }
+  .rodapeCentro a:hover{
     color: var(--titulo-h4-color);
     cursor: pointer;
-}
+  }
+  .rodapeCentro a:visited{
+  text-decoration: none;
+  color: white;
+  }
 .rodapeDireita{
     display: flex;
     width: calc(100%/3);

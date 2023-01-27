@@ -855,13 +855,19 @@ p, span, button{
     width: calc(100%/3);
     justify-content: center;
 }
-.rodapeCentro p{
+.rodapeCentro a{
     color: white;
+    text-decoration: none;
 }
-.rodapeCentro p:hover{
+.rodapeCentro a:hover{
     color: var(--titulo-h4-color);
     cursor: pointer;
 }
+.rodapeCentro a:visited{
+  text-decoration: none;
+  color: white;
+}
+
 .rodapeDireita{
     display: flex;
     width: calc(100%/3);
@@ -1391,20 +1397,17 @@ font-size: 16px;
   text-align: center;
   font-size: 12px;
 }
-.rodapeCentro{
-  display: flex;
-  width: calc(100%/3);
-  justify-content: center;
-  align-items: center;
-}
-.rodapeCentro p{
+.rodapeCentro a{
   color: white;
-  text-align: center;
-  font-size: 12px;
+  text-decoration: none;
 }
-.rodapeCentro p:hover{
+.rodapeCentro a:hover{
   color: var(--titulo-h4-color);
   cursor: pointer;
+}
+.rodapeCentro a:visited{
+text-decoration: none;
+color: white;
 }
 .rodapeDireita{
   display: flex;

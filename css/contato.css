@@ -460,16 +460,21 @@ p{
     line-height: 0;
 }
 .rodapeCentro{
-    display: flex;
-    width: calc(100%/3);
-    justify-content: center;
+  display: flex;
+  width: calc(100%/3);
+  justify-content: center;
 }
-.rodapeCentro p{
-    color: white;
+.rodapeCentro a{
+  color: white;
+  text-decoration: none;
 }
-.rodapeCentro p:hover{
-    color: var(--titulo-h4-color);
-    cursor: pointer;
+.rodapeCentro a:hover{
+  color: var(--titulo-h4-color);
+  cursor: pointer;
+}
+.rodapeCentro a:visited{
+text-decoration: none;
+color: white;
 }
 .rodapeDireita{
     display: flex;
@@ -662,16 +667,18 @@ p{
     display: flex;
     width: calc(100%/3);
     justify-content: center;
-    align-items: center;
   }
-  .rodapeCentro p{
+  .rodapeCentro a{
     color: white;
-    text-align: center;
-    font-size: 12px;
+    text-decoration: none;
   }
-  .rodapeCentro p:hover{
+  .rodapeCentro a:hover{
     color: var(--titulo-h4-color);
     cursor: pointer;
+  }
+  .rodapeCentro a:visited{
+  text-decoration: none;
+  color: white;
   }
   .rodapeDireita{
     display: flex;
@@ -863,16 +870,18 @@ p{
       display: flex;
       width: calc(100%/3);
       justify-content: center;
-      align-items: center;
     }
-    .rodapeCentro p{
+    .rodapeCentro a{
       color: white;
-      text-align: center;
-      font-size: 12px;
+      text-decoration: none;
     }
-    .rodapeCentro p:hover{
+    .rodapeCentro a:hover{
       color: var(--titulo-h4-color);
       cursor: pointer;
+    }
+    .rodapeCentro a:visited{
+    text-decoration: none;
+    color: white;
     }
     .rodapeDireita{
       display: flex;
@@ -1061,16 +1070,18 @@ p{
       display: flex;
       width: calc(100%/3);
       justify-content: center;
-      align-items: center;
     }
-    .rodapeCentro p{
+    .rodapeCentro a{
       color: white;
-      text-align: center;
-      font-size: 12px;
+      text-decoration: none;
     }
-    .rodapeCentro p:hover{
+    .rodapeCentro a:hover{
       color: var(--titulo-h4-color);
       cursor: pointer;
+    }
+    .rodapeCentro a:visited{
+    text-decoration: none;
+    color: white;
     }
     .rodapeDireita{
       display: flex;
@@ -1259,16 +1270,18 @@ p{
       display: flex;
       width: calc(100%/3);
       justify-content: center;
-      align-items: center;
     }
-    .rodapeCentro p{
+    .rodapeCentro a{
       color: white;
-      text-align: center;
-      font-size: 12px;
+      text-decoration: none;
     }
-    .rodapeCentro p:hover{
+    .rodapeCentro a:hover{
       color: var(--titulo-h4-color);
       cursor: pointer;
+    }
+    .rodapeCentro a:visited{
+    text-decoration: none;
+    color: white;
     }
     .rodapeDireita{
       display: flex;
